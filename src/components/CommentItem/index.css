@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  font-family: roboto;
+}
+.amber {
+  background-color: #f59e0b;
+  padding: 9px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.blue {
+  background-color: #0b69ff;
+  padding: 9px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.orange {
+  background-color: #f97316;
+  padding: 9px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.emerald {
+  background-color: #10b981;
+  padding: 9px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.teal {
+  background-color: #14b8a6;
+  padding: 9px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.red {
+  background-color: #b91c1c;
+  padding: 9px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+  padding: 9px 12px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* Write your CSS here */
+.like {
+  color: #0b69ff;
+}
+.listitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.content1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 20vw;
+  padding: 0px;
+}
+.paragraph {
+  padding: 0px;
+}
+.buttoncontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 74vw;
+}
+.comment {
+  padding-left: 55px;
+}
+.name {
+  color: black;
+  font-weight: 600;
+}
+.time {
+  color: grey;
+  font-size: 13px;
+}
+button {
+  cursor: pointer;
+}

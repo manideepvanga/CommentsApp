@@ -1,0 +1,80 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5vw;
+}
+.topcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  align-items: center;
+  height: 50vh;
+}
+
+.side1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+textarea {
+  margin: 10px 0px;
+}
+.line {
+  border: 1px solid gray;
+  width: 80vw;
+}
+.bottomcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 80vw;
+}
+.unorder {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 80vw;
+}
+.Addbutton {
+  background-color: #0284c7;
+  border: none;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+span {
+  background-color: #0284c7;
+  padding: 2px 5px;
+  color: aliceblue;
+}
+p {
+  color: grey;
+  font-weight: 500;
+}
